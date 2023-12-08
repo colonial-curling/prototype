@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous">
+    </script>
   </head>
 
-<!-- This is the header Image of Colonional Curling-->>
+<!-- This is the header Image of Colonional Curling-->
   <div class="container">
     <a class="navbar-brand" href="index.html">
       <img
@@ -24,7 +27,7 @@
       />
     </a>
   </div>
-  
+<!-- This is the Nav Bar-->
   <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">sticky top 2.0</a>
@@ -42,45 +45,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="mission.html">Mission</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="members.html">Members</a>
           </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
-
+  <!-- Link to CSS main document -->
+  <link href="./css/main.css" rel="stylesheet">
+  
   <body>
     <h1>Hello, world!</h1>
   </body>
@@ -101,7 +82,12 @@
         Click For "Learn to Curl" Registration Info
       </a>
     </p>
-    <h2>Club Information</h2>
+    <h2>Curl in Worcester MA</h2>
+        
+    <div class="google-map"> 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8352.193520703708!2d-71.79957057314206!3d42.25831849730207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e407e6cf5b2863%3A0x605c7b78de65793!2sColonial%20Curling%20Club!5e0!3m2!1sen!2sus!4v1701638962868!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  <br> </br>
     <p class="lead">The Colonial Curling Club curls at the <a href="http://worcesterice.com">
       Worcester Ice Center</a> on Friday evenings starting at 9:00/9:30 pm (or 7:00 pm 
       in the Summer) and Sunday evenings starting at 6:00 pm (or 5:00 pm in the summer).
