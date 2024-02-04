@@ -1,12 +1,16 @@
 /*google-map responsive formatting */
 .google-map {
-    padding-bottom: 50%;
+    padding-bottom: 33%;
     position: relative;
   }
   .google-map iframe {
     height: 100%;
-    width: 100%;
+    width: 80%;
     left: 0;
     top: 0;
     position: absolute;
   }
+
+  .abc123{
+    background-color: rgb(30, 155, 155);
+  } 
